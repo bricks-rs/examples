@@ -1,0 +1,8 @@
+[workspace]
+members = ["examples/*"]
+resolver = "2"
+
+[workspace.dependencies]
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+lego-powered-up = "0.4"
+nxtusb = "0.2"
